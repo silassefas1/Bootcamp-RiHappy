@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <!--Formularios são campos onde o usuario vai inserir informações que serão enviadas para o servidor-->
+    <!--Method post envia as informações por formulario de requisição, get por URL-->
+    <!--target abre uma nova aba ou não-->
+    <!--Autocomplet - Não traz as informações novamente-->
+    <!--O on permite criar eventos apartir dele que acontecerão apos o gatilho definido-->
+    <form name="singup" method="get" action="##" target="_self" autocomplete="off" onsubmit="alert('Formulario Enviado')">
+        Este é o meu formulario <br>
+        Nome: <input type="Text" name="Name"> <br>
+        Idade: <input type="Number" name="Number"> <br>
+        Senha: <input type="Password" name="Password"> <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

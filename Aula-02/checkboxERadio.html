@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complemento de Pizza</title>
+</head>
+<body>
+    <form action="##" method="get">
+        <h3>Você selecionou: pizza de calabresa</h3>
+        <p>Quais opicionais Você deseja? </p>
+        <!--quando o nome do checkbox esta com nome[] isso significa que o backend vai receber uma lista-->
+        <input type="checkbox" disabled name="opicional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opicional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opicional[]" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opicional[]" value="azeitona"> + azeitona <br>
+        
+        <p>Borada recheada?</p>
+        <input type="radio" name="borda" value="sim"> sim<br>
+        <input type="radio" name="borda" value="nao"> não<br>
+        <p>bebida</p>
+        <input type="radio" name="bebida" value="suco"> suco<br>
+        <input type="radio" name="bebida" value="refrigerante"> refrigerante<br>
+        <input type="radio" name="bebida" value="agua"> água<br>
+        <input type="radio" name="bebida" value="nenhum"> nenhum<br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
