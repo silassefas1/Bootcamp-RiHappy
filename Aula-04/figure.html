@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <head>
+
+    </head>
+    <main>
+        <figure>
+            <img src="car-grande.jpg" width="250">
+            <figcaption>Descrição: um carro esportivo azul em uma garagem com outro carro de fundo, a direita</figcaption> 
+            <!--Semanticamente leitores para acessibilidade sabem que a descrição tem relação com a figura-->
+        </figure>
+
+        <div>
+            <img src="car-grande.jpg" width="250">
+            <figcaption>Descrição: um carro esportivo azul em uma garagem com outro carro de fundo, a direita</figcaption> 
+            <!--Semanticamente leitores para acessibilidade  não sabem que a descrição tem relação com a figura-->
+        </div>
+         
+        <picture>
+            <source srcset="car-pequeno.jpg" media="(min-width: 600px)">
+            <img src="car-grande.jpg">
+        </picture>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
